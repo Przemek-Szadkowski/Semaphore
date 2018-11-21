@@ -169,17 +169,24 @@ div.line.yellow {
 
     div.sideA {
         height: 100%;
-        flex-basis: 70vh;
+        flex-basis: 60vh;
     }
 
     div.sideB {
         height: 100%;
-        flex-basis: 30vh;
+        flex-basis: 40vh;
     }
 
     div.semafor {
-        height: 70%;
-        width: 80px;
+        height: 60%;
+        width: 50px;
+    }
+
+    div.circle {
+        width: 25px;
+        height: 25px;
+        background-color: black;
+        border-radius: 50%;
     }
 
     div.stand {
@@ -191,7 +198,7 @@ div.line.yellow {
 
     div.buttons {
         position: absolute;
-        top: 70%;
+        top: 60%;
         left: 50%;
         margin: 0 auto;
         height: 10%;
@@ -222,6 +229,11 @@ div.line.yellow {
         text-align: center;
         line-height: 25px;
         color: white;
+    }
+
+    div.line {
+        height: 15px;
+        width: 70px;
     }
 }
 
