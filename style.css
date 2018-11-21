@@ -236,6 +236,81 @@ div.line.yellow {
     }
 }
 
+@media (max-width: 600px) and (orientation: landscape) {
+    div.wrapper {
+        flex-direction: row;
+        height: 100vh;
+    }
+
+    div.sideA {
+        flex-basis: 40%;
+    }
+
+    div.sideB {
+        flex-basis: 60%;
+    }
+
+    div.semafor {
+        height: 70%;
+        width: 50px;
+    }
+
+    div.circle {
+        width: 25px;
+        height: 25px;
+        background-color: black;
+        border-radius: 50%;
+    }
+
+    div.stand {
+        top: 78%;
+        left: 50%;
+        height: 30%;
+        width: 20px;
+    }
+
+    div.buttons {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        margin: 0 auto;
+        height: 10%;
+        width: 100%;
+    }
+
+    button {
+        height: 30px;
+        width: 70px;
+        font-size: 70%;
+        border: none;
+        margin: 10px;
+    }
+
+    button:hover {
+        border: 2px solid #BC2026;
+    }
+
+    div.describe {
+        top: 0%;
+        left: 0%;
+        margin: 5px 0;
+        height: 20%;
+    }
+
+    div.describe p {
+        font-size: 60%;
+        padding: 10px;
+        text-align: center;
+        line-height: 25px;
+        color: white;
+    }
+
+    div.line {
+        height: 15px;
+        width: 60px;
+    }
+}
+
 @keyframes blink {
     0% {
         opacity: 1;
